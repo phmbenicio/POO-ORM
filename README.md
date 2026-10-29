@@ -210,17 +210,29 @@ ID: 2 | Produto: Feijão 1kg | Preço: R$ 8,90 | Estoque: 65 un.
 
 ## Capturas de Tela (Prints)
 
-### Testes no BlueJ (Create, Read, Update e Delete)
+### Esquema do Projeto e Classes no BlueJ
 
-![Testes no BlueJ](prints/PRODUTO1.png)
-[Testes no BlueJ](prints/PRODUTO2.png)
-[Testes no BlueJ](prints/DATABASE.png)
-[Testes no BlueJ](prints/PRODUTOREPOSITORY1.png)
-[Testes no BlueJ](prints/PRODUTOREPOSITORY2.png)
-[Testes no BlueJ](prints/PROGRAMACRUD.png)
-[Testes no BlueJ](prints/ESQUEMAPOOORM.png)
-[Testes no BlueJ](prints/TERMINALPOOORM.png)
+**Diagrama de classes do projeto no BlueJ:**
+![Esquema do Projeto no BlueJ](ESQUEMAPOOORM.png)
+
+**Classe Produto (Mapeamento ORMLite):**
+![Código da Classe Produto - Parte 1](PRODUTO1.png)
+![Código da Classe Produto - Parte 2](PRODUTO2.png)
+
+**Classe Database (Conexão com o SQLite):**
+![Código da Classe Database](DATABASE.png)
+
+**Classe ProdutoRepository (Operações CRUD):**
+![Código da Classe ProdutoRepository - Parte 1](PRODUTOREPOSITORY1.png)
+![Código da Classe ProdutoRepository - Parte 2](PRODUTOREPOSITORY2.png)
+
+**Classe ProgramaCRUD (Script de Testes):**
+![Código da Classe ProgramaCRUD](PROGRAMACRUD.png)
+
+### Testes no BlueJ (Create, Read, Update e Delete)
+Execução no terminal do BlueJ comprovando o funcionamento das quatro operações CRUD em sequência:
+![Terminal do BlueJ executando o CRUD](TERMINALPOOORM.png)
 
 ### Evidência dos Dados Persistidos no Banco SQLite
-
-![Banco de Dados SQLite](prints/TABELADBBROWSER.png)
+Visualização da tabela `produtos` no DB Browser for SQLite comprovando que os dados foram efetivamente armazenados, atualizados e excluídos no ficheiro do banco de dados:
+![Tabela no DB Browser for SQLite](TABELADBBROWSER.png)
